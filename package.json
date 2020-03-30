@@ -1,0 +1,19 @@
+{
+  "name": "node_war",
+  "version": "1.0.0",
+  "description": "node cli version of classic card game",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha",
+    "start": "node index.js",
+    "demo": "NODE_ENV=demo node index.js"
+  },
+  "author": "Rafael Dwan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lodash": "^4.17.15",
+    "mocha": "^7.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}
